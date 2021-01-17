@@ -3,14 +3,10 @@
   "version": "1.0.0",
   "description": "Static file serve middleware for nanoexpress",
   "type": "module",
-  "main": "cjs/static.cjs.js",
-  "module": "static.es.js",
+  "main": "static.es.js",
   "typings": "static.d.ts",
   "exports": {
-    ".": {
-      "require":  "./cjs/static.cjs.js",
-      "default": "./static.es.js"
-    },
+    ".": "./cjs/static.cjs.js",
     "./module": "./static.es.js",
     "./cjs/": "./cjs/"
   },
@@ -39,5 +35,11 @@
   "bugs": {
     "url": "https://github.com/nanoexpress/middlewares/issues"
   },
-  "homepage": "https://github.com/nanoexpress/middlewares#readme"
+  "homepage": "https://github.com/nanoexpress/middlewares#readme",
+  "devDependencies": {
+    "eslint-config-airlight-node": "^1.0.9",
+    "husky": "^4.3.8",
+    "rollup": "^2.36.2",
+    "smartlint": "^1.0.6"
+  }
 }
