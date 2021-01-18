@@ -1,5 +1,5 @@
 {
-  "name": "@nanoexpress/middleware-static-serve",
+  "name": "nanoexpress-static",
   "version": "1.0.0",
   "description": "Static file serve middleware for nanoexpress",
   "type": "module",
@@ -20,11 +20,8 @@
   "engines": {
     "node": ">=12.16.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nanoexpress/middlewares.git"
-  },
   "keywords": [
+    "ES",
     "nanoexpress",
     "middlewares",
     "static",
